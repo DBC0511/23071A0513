@@ -1,0 +1,27 @@
+:root {
+    --bg-light: #F8F4E1;
+    --accent: #FEBA17;
+    --dark-brown: #74512D;
+    --darker-brown: #4E1F00;
+    }
+    body {
+    background-color: var(--bg-light);
+    color: var(--darker-brown);
+    }
+    .bg-dark-brown {
+    background-color: var(--dark-brown) !important;
+    }
+    .product {
+    background-color: var(--bg-light);
+    border-color: var(--dark-brown);
+    }
+    .btn-warning {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #000;
+    }
+    .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+    }
+   
